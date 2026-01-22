@@ -19,19 +19,21 @@ const teamCategories = [
 	},
 	{
 		id: 'developers',
-		title: 'DEVELOPERS',
+		title: 'R&D AND ENGINEERING',
 		members: [
 			{ id: 5, name: 'Dhanyashree', image: '/img/team/5.jpeg', position: 'Developer', linkedin: 'https://www.linkedin.com/in/dhanyashree-k/' },
-			{ id: 6, name: 'Sinchana', image: '/img/team/6.jpeg', position: 'Developer', linkedin: 'https://www.linkedin.com/in/sinchana-navarathna-899935305/' },
-			{ id: 9, name: 'Indushree', image: '/img/team/9.jpeg', position: 'Developer', linkedin: 'https://www.linkedin.com/in/indu-shree-3599972a7/' },
+			{ id: 6, name: 'Sinchana', image: '/img/team/6.jpeg', position: 'QA Tester', linkedin: 'https://www.linkedin.com/in/sinchana-navarathna-899935305/' },
+			{ id: 11, name: 'Tanushree', image: '/img/team/11.jpeg', position: 'Developer', linkedin: 'https://www.linkedin.com/in/tanushree-b-sindagi/' },
+			{ id: 12, name: 'Guna', image: '/img/team/12.jpeg', position: 'Hardware Developer', linkedin: 'https://www.linkedin.com/in/-guna-m/' },
 		]
 	},
 	{
 		id: 'design',
-		title: 'DESIGN & MEDIA',
+		title: 'GROWTH AND DESIGN',
 		members: [
-			{ id: 7, name: 'Oviya', image: '/img/team/7.jpeg', position: 'Design & Finance', linkedin: 'https://www.linkedin.com/in/duggirala-oviya-95144231a/' },
+			{ id: 7, name: 'Oviya', image: '/img/team/7.jpeg', position: 'Digital Marketing Head', linkedin: 'https://www.linkedin.com/in/duggirala-oviya-95144231a/' },
 			{ id: 8, name: 'Advaith', image: '/img/team/8.jpeg', position: 'Design', linkedin: 'https://www.linkedin.com/in/n-sai-advaith-58b9a42a7/' },
+			{ id: 9, name: 'Indushree', image: '/img/team/9.jpeg', position: 'Content & Design', linkedin: 'https://www.linkedin.com/in/indu-shree-3599972a7/' },
 			{ id: 10, name: 'Ruthu', image: '/img/team/10.jpeg', position: 'Media & Design', linkedin: 'https://www.linkedin.com/in/tangirala-ruthu-639a28338/' },
 		]
 	}

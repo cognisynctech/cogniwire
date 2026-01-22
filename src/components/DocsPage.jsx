@@ -72,12 +72,11 @@ await client.connect();</code></pre>
           
           <h4>Technical Specifications</h4>
           <table>
-            <tr><td><strong>Channels</strong></td><td>16 active electrodes</td></tr>
+            <tr><td><strong>Channels</strong></td><td>8 active electrodes</td></tr>
             <tr><td><strong>Sampling Rate</strong></td><td>256 Hz - 1024 Hz</td></tr>
             <tr><td><strong>Resolution</strong></td><td>24-bit ADC</td></tr>
             <tr><td><strong>Connectivity</strong></td><td>Bluetooth 5.0, USB-C</td></tr>
             <tr><td><strong>Battery Life</strong></td><td>8+ hours continuous use</td></tr>
-            <tr><td><strong>Weight</strong></td><td>280g</td></tr>
           </table>
           
           <h4>Electrode Placement</h4>
@@ -102,7 +101,7 @@ await client.connect();</code></pre>
           </ol>
           
           <h4>Pairing</h4>
-          <p>Press and hold the power button for 3 seconds to enter pairing mode. The LED will blink blue. Open the Cogniwire app and select your device from the available devices list.</p>
+          <p>Press and hold the power button for 3 seconds to enter pairing mode. The LED will blink blue. Open the AURA app and select your device from the available devices list.</p>
         `
       },
       {
@@ -290,7 +289,7 @@ const focusScore = features.focusIndex(data);</code></pre>
           
           <h4>Research Features</h4>
           <ul>
-            <li>Raw data export (EDF, CSV, HDF5)</li>
+            <li>Raw data export (EDF, CSV)</li>
             <li>Synchronized event markers</li>
             <li>Integration with PsychoPy, E-Prime</li>
             <li>MATLAB/Python analysis tools</li>
@@ -298,7 +297,7 @@ const focusScore = features.focusIndex(data);</code></pre>
           
           <h4>Citing Cogniwire</h4>
           <p>If you use Cogniwire in your research, please cite:</p>
-          <pre><code>Cogniwire Tech. (2024). Cogniwire BCI Platform. 
+          <pre><code>Cogniwire.Tech LLP. (2025). Cogniwire BCI Platform. 
 https://cogniwire.tech</code></pre>
         `
       }
@@ -315,7 +314,7 @@ https://cogniwire.tech</code></pre>
           
           <h4>Hardware Specifications</h4>
           <table>
-            <tr><td><strong>EEG Channels</strong></td><td>16 active + 2 reference</td></tr>
+            <tr><td><strong>EEG Channels</strong></td><td>8 active + 1 reference</td></tr>
             <tr><td><strong>Sampling Rates</strong></td><td>256, 512, 1024 Hz</td></tr>
             <tr><td><strong>ADC Resolution</strong></td><td>24-bit</td></tr>
             <tr><td><strong>Input Range</strong></td><td>+/-400 mV</td></tr>
@@ -339,7 +338,7 @@ https://cogniwire.tech</code></pre>
         content: `
           <h3>Certifications and Compliance</h3>
           
-          <h4>Regulatory Compliance</h4>
+          <h4>Regulatory Compliance (in-progress)</h4>
           <ul>
             <li>CE Marked (European Union)</li>
             <li>FCC Certified (United States)</li>
@@ -347,7 +346,7 @@ https://cogniwire.tech</code></pre>
             <li>ISO 13485 (Medical Devices QMS)</li>
           </ul>
           
-          <h4>Safety Standards</h4>
+          <h4>Safety Standards (in-progress)</h4>
           <ul>
             <li>IEC 60601-1 (Medical Electrical Equipment)</li>
             <li>IEC 62133 (Battery Safety)</li>

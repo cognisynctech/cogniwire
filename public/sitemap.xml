@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Home Page -->
+   <url>
+      <loc>https://www.cogniwire.tech/</loc>
+      <lastmod>2026-01-22</lastmod>
+      <priority>1.0</priority>
+   </url>
+   <!-- Careers Page -->
+   <url>
+      <loc>https://www.cogniwire.tech/careers</loc>
+      <lastmod>2026-01-22</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <!-- Achievements Page -->
+   <url>
+      <loc>https://www.cogniwire.tech/achievements</loc>
+      <lastmod>2026-01-22</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <!-- Docs Page -->
+   <url>
+      <loc>https://www.cogniwire.tech/docs</loc>
+      <lastmod>2026-01-22</lastmod>
+      <priority>0.7</priority>
+   </url>
+</urlset>

@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'Bentoic';
+  src: url('/fonts/general.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularWeb';
+  src: url('/fonts/circularweb-book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robert';
+  src: url('/fonts/robert-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobertMedium';
+  src: url('/fonts/robert-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.explosion-circle {
+  pointer-events: none;
+  will-change: transform, opacity;
+  /* The rest is set inline for dynamic sizing */
+}
+
+.brain-shape > div {
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+  transition: background 0.3s;
+}
+
+.pixel-heart {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  transform-origin: center;
+  transform: rotate(-45deg) scale(0.8);
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.heart-pixel {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  border-radius: 6px;
+  position: relative;
+  will-change: transform, box-shadow;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.heart-pixel.filled {
+  background-color: #000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.heart-pixel.filled:hover {
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Timeline styles */
+.timeline {
+  width: 2px;
+  background: rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: 100%;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* Ensure text is always visible and optimized for animations */
+h2, h3, p {
+  color: #000;
+  opacity: 1 !important;
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Active content styles with hardware acceleration */
+.content-active {
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+}
+
+/* Timeline and content authentic sizing */
+@media (min-width: 768px) {
+  .zentry-timeline {
+    width: 32px;
+    min-width: 32px;
+    max-width: 32px;
+  }
+  .zentry-content {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+.zentry-section {
+  padding-bottom: 20vh; /* Added extra bottom padding */
+  min-height: 100vh;
+  position: relative;
+}
+
+.zentry-content {
+  margin-bottom: 5rem; /* Added margin to content */
+}
+
+/* Typography with GSAP-ready classes */
+.zentry-title {
+  font-family: 'Bentoic', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  opacity: 0; /* For GSAP fade in */
+  transform: translateY(20px); /* For GSAP slide up */
+}
+
+.zentry-subtitle {
+  font-family: 'RobertMedium', sans-serif;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  opacity: 0;
+  transform: translateY(15px);
+}
+
+.zentry-text {
+  font-family: 'CircularWeb', sans-serif;
+  line-height: 1.6;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.timeline-number {
+  font-family: 'Robert', sans-serif;
+  font-size: 1.5rem;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/* Animation states */
+.fade-in {
+  opacity: 1;
+  transform: none;
+}
+
+.scale-in {
+  transform: scale(1);
+}
+
+.zentry-section .hero-heading {
+  font-size: clamp(4rem, 12vw, 8rem);
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+  font-family: 'Bentoic', sans-serif;
+  text-transform: uppercase;
+  margin-top: 6rem;
+}
+
+.zentry-section .hero-heading b {
+  font-family: 'Bentoic', sans-serif;
+  color: #000;
+  position: relative;
+  display: inline-block;
+  transform-origin: center;
+}
+
+.zentry-section .hero-heading > span {
+  display: inline-block;
+  transform-origin: center;
+  opacity: 0;
+  transform: translateY(100px);
+}
+
+/* Smooth background transitions */
+.bg-white {
+  will-change: opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  mix-blend-mode: normal;
+  isolation: isolate;
+}

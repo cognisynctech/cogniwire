@@ -11,4 +11,4 @@
 
 ### 🔗 Links
 *   **Live Site:** [www.cogniwire.tech](https://www.cogniwire.tech)
-*   **Contact:** contact@cognisync.tech
+*   **Contact:** contact@cogniwire.tech

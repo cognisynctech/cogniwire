@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 const socialLinks = [
   { href: "https://www.linkedin.com/company/cognisync-tech/?viewAsMember=true", icon: <FaLinkedin size={24} />, label: "LinkedIn" },
   { href: "https://x.com/Cognisynctech", icon: <FaTwitter size={24} />, label: "Twitter" },
-  { href: "https://www.instagram.com/cognisync.tech/", icon: <FaInstagram size={24} />, label: "Instagram" },
+  { href: "https://www.instagram.com/cogniwire.tech/", icon: <FaInstagram size={24} />, label: "Instagram" },
 ];
 
 const Footer = ({ onJoinTeamClick, onPrivacyClick }) => {
@@ -106,7 +106,7 @@ const Footer = ({ onJoinTeamClick, onPrivacyClick }) => {
 
         {/* Contact Info */}
         <div className="text-center">
-          <p className="text-white/70">contact@cognisync.tech</p>
+          <p className="text-white/70">contact@cogniwire.tech</p>
         </div>
         
         {/* Legal Links */}
